@@ -7,6 +7,4 @@ result_message = False
 
 if steps_taken >= step_goal or calories_burned >= calorie_goal:
     result_message = True
-
-if result_message:
     print("Great job, you've reached at least one goal")
